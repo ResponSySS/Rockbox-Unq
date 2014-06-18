@@ -1,0 +1,34 @@
+%wd
+%xl(r,rock.bmp)
+%xl(v,volBar.bmp)
+%xl(sA,songBarBg.bmp)
+%xl(sB,songBarBg-p.bmp)
+%xl(s1,songBar.bmp)
+%xl(s2,songBar-p.bmp)
+%xl(s3,songBar-f.bmp)
+%xl(s4,songBar-r.bmp)
+%xl(B,battBar.bmp,9)
+%Fl(3,16-Jackash.fnt)
+%Fl(2,36-Ubuntu-Bold.fnt)
+%Cl(0,0,144,144,l,t)
+%V(0,144,150,32,2)%Vf(d2d2d2)
+%?pE(10)<%s%ar%>%> %?Ia<%Ia|%?Fn<%Fn|End>>|%s%ar%?it<%it|%fn>>
+%V(150,144,70,16,3)%Vf(d2d2d2)
+%s%al%?ia<%ia|%?ic<%ic|%?iA<%iA|???>>>
+%V(150,160,70,16,3)%Vf(d2d2d2)
+%s%al%?id<%id|%?d(1)<%(%d(1)%)|%(root%)>>
+%V(144,0,14,16,-)
+%?bp<|%?bl<|%xd(Ba)|%xd(Bb)|%xd(Bc)|%xd(Bd)|%xd(Be)|%xd(Bf)|%xd(Bg)|%xd(Bh)|%xd(Bi)>>
+%V(144,16,14,128,-)%Vf(663399)
+%pv(0,0,-,-,v,vertical)
+%V(158,0,62,16,1)%Vf(d2d2d2)
+%al%?mm<|re|re|re|re>%ac%?ps<sh|>%ar%?St(eq enabled)<eq|>
+%V(158,16,62,17,1)%Vf(d2d2d2)
+%s%al%pp/%pe%ar %pc
+%V(158,33,62,111,-)%Vf(000000)
+%?mp<|%pb(0,0,-,-,s1,vertical,backdrop,sA)|%pb(0,0,-,-,s2,vertical,backdrop,sB)|%pb(0,0,-,-,s3,vertical)|%pb(0,0,-,-,s4,vertical)||%pb(0,0,-,-,-,vertical,backdrop,sB)||>
+%?C<%Vd(a)|%Vd(b)>
+%Vl(a,0,0,144,144,-)
+%Cd
+%Vl(b,0,7,144,88,-)
+%xd(r)

@@ -1,0 +1,30 @@
+%wd
+%xl(r,rock.bmp)
+%xl(v,volBar.bmp)
+%xl(B,battBar.bmp,9)
+%xl(R,radio.bmp,2)
+%Fl(2,36-Ubuntu-Bold.fnt)
+%Fl(3,16-Jackash.fnt)
+%V(0,0,-,-,-)
+%V(0,7,144,88,-)
+%xd(r)
+%V(1,108,142,18,1)%Vf(FFFFFF)
+%acMode: %?tm<Scan|Preset>
+%V(1,126,142,16,3)%Vf(FFFFFF)
+%Ti %s%ar%Tn
+%V(0,144,150,32,2)%Vf(d2d2d2)
+%alMHz%ar%tf
+%V(150,144,70,16,3)%Vf(d2d2d2)
+%s%al%?ts<Stereo|Mono>
+%V(150,160,70,16,3)%Vf(d2d2d2)
+%tr(0,0,70,16,-,noborder)
+%V(144,0,14,16,-)
+%?bp<|%?bl<|%xd(Ba)|%xd(Bb)|%xd(Bc)|%xd(Bd)|%xd(Be)|%xd(Bf)|%xd(Bg)|%xd(Bh)|%xd(Bi)>>
+%V(144,16,14,128,-)%Vf(663399)
+%pv(0,0,-,-,v,vertical)
+%V(158,0,62,16,1)%Vf(d2d2d2)
+%al%?cf<%cH|%cI>:%ac%cM:%ar%cS
+%V(158,16,62,17,1)%Vf(d2d2d2)
+%s%ac%cy/%cd/%cd
+%V(158,33,62,111,-)
+%?mp<|||||||%xd(Ra)|%xd(Rb)>
