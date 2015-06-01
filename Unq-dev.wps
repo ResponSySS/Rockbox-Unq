@@ -36,7 +36,7 @@
 # Title (font 2):
 %V(0,144,150,32,2) %Vf(d2d2d2)
 #   Show artist of next song in the last 13 seconds of the track
-%?pE(10)< %s%ar%>%>_SPACE_%?Ia<%Ia|%?Fn<%Fn|End>> | %s%ar%?it<%it|%fn> >
+%?pE(10)< %s%ar%>%>_SPACE_%?It<%It|%?Fn<%Fn|[END]>> | %s%ar%?it<%it|%fn> >
 
 # Artist (font 3):
 %V(150,144,70,16,3) %Vf(d2d2d2)
